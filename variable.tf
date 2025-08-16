@@ -5,7 +5,7 @@ variable "subscription_id" {
 
 variable "rg" {
   description = "resource grp for azure vm"
-  default = "githubactionrg"
+  default = "githubtactionrg"
 }
 
 
