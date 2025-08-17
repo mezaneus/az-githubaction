@@ -1,9 +1,7 @@
 name: Deploy azure code through terraform and github action
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
 
 jobs:
   build:
